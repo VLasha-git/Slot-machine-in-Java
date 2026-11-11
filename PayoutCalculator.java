@@ -2,7 +2,6 @@ package com.lasha.slots;
 
 import java.util.List;
 
-/** Decides how much a spin pays. Kept separate so the rules are easy to change and test. */
 public class PayoutCalculator {
 
     public int calculate(List<Symbol> symbols, int bet) {
