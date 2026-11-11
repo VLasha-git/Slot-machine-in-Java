@@ -14,8 +14,6 @@ public class SlotMachine {
         this.payoutCalculator = payoutCalculator;
         this.random = random;
     }
-
-    /** Builds a machine with three identical reels where low-value symbols are common. */
     public static SlotMachine createDefault(Random random) {
         List<Symbol> strip = List.of(
                 Symbol.CHERRY, Symbol.CHERRY, Symbol.CHERRY, Symbol.CHERRY,
