@@ -3,7 +3,6 @@ package com.lasha.slots;
 import java.util.List;
 import java.util.Random;
 
-/** A three-reel slot machine. The Random is injected so tests can control the outcome. */
 public class SlotMachine {
 
     private final List<Reel> reels;
