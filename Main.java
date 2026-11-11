@@ -3,7 +3,6 @@ package com.lasha.slots;
 import java.util.Random;
 import java.util.Scanner;
 
-/** Console game loop. Type a bet to spin, or q to quit. */
 public class Main {
 
     private static final int STARTING_BALANCE = 100;
