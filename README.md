@@ -3,7 +3,7 @@
 A small console slot machine game built with Java 17 and Maven.
 
 ## Features
-- Three reels with weighted symbols (common low-value symbols, rare high-value ones)
+- Three reels with weighted symbols
 - Payout rules separated into their own class
 - Balance tracking with input validation
 - Unit tests with JUnit 5, using injected randomness so results are predictable
@@ -16,13 +16,6 @@ A small console slot machine game built with Java 17 and Maven.
 - `SlotMachine` - ties reels and payouts together
 - `Main` - console game loop
 
-## Run
-    mvn compile exec:java -Dexec.mainClass=com.lasha.slots.Main
-
-(Or press Run above `main` in VS Code.)
-
-## Test
-    mvn test
 
 ## Possible improvements
 - Add a pair-of-two payout and tune the odds
