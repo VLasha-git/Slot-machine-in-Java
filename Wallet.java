@@ -1,6 +1,5 @@
 package com.lasha.slots;
 
-/** Tracks the player's balance. */
 public class Wallet {
 
     private int balance;
