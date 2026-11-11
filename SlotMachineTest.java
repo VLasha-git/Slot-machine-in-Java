@@ -11,7 +11,6 @@ import org.junit.jupiter.api.Test;
 
 class SlotMachineTest {
 
-    /** Reels with only one symbol always land on it, which makes the result predictable. */
     private SlotMachine machineAlways(Symbol a, Symbol b, Symbol c) {
         List<Reel> reels = List.of(
                 new Reel(List.of(a)),
